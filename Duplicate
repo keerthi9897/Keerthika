@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class RemoveDuplicate {
+    public static void main(String[]args) {
+        String a="java";
+        String b="";
+        for(int i=0;i<a.length();i++) {
+            char ch=a.charAt(i);
+            if((ch>='a'&&ch<='z')) {
+                b+=ch;
+            }
+        }
+        Sustem.out.println("enter the duplicate:"+b);
+        }
+        }
+            
