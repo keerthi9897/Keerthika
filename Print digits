@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class RemoveDigits {
+    public static void main(String[]args) {
+        String a="java program 5";
+        String b="ava program";
+        for(int i=0;i<a.length();i++){
+            char ch=a.charAt(i);
+            if((ch>='a'&&ch<='z')) {
+                b+=ch;
+            }
+        }
+        System.out.println("enter the ava program");
+            }
+        }
+    
